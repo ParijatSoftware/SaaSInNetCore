@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<AssemblyName>SaaSInNetCore.Web</AssemblyName>
+		<RootNamespace>SaaSInNetCore.Web</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="SaasKit.Multitenancy" Version="1.1.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10" PrivateAssets="All" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\SaaSInNetCore.Data\SaaSInNetCore.Data.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Data\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="wwwroot\lib\bootstrap\.github\CONTRIBUTING.md" />
+	  <None Include="wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\bug.md" />
+	  <None Include="wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\bug_report.md" />
+	  <None Include="wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\feature.md" />
+	  <None Include="wwwroot\lib\bootstrap\.github\ISSUE_TEMPLATE\feature_request.md" />
+	  <None Include="wwwroot\lib\bootstrap\.github\SUPPORT.md" />
+	  <None Include="wwwroot\lib\jquery-validation-unobtrusive\.vsts-pipelines\builds\ci-public.yml" />
+	</ItemGroup>
+
+</Project>

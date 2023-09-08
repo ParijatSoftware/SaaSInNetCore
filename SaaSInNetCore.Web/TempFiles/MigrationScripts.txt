@@ -1,0 +1,5 @@
+﻿-- Catalog Database
+dotnet ef migrations add InitialCustomerDbMigration -c CatalogDbContext -o Data/Migrations/SaaSInNetCore/CatalogDb
+
+-- Tenant Database
+dotnet ef migrations add InitialTenantDbMigration -c TenantDbContext -o Data/Migrations/SaaSInNetCore/TenantDb
