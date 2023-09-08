@@ -1,8 +1,5 @@
 # SaaSInNetCore
-SaaS app using .Net Core
-
-## .Net 7.0 Support!!!
-This application runs on the Latest Net Core version.
+SaaS app using .Net Core. Uses Net Core 7.0.
 
 ## Known Issue
 Currently `HTTPS` redirection is not supported.
